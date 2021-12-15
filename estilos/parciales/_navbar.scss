@@ -1,0 +1,21 @@
+.navbar{
+    min-height: 12s 100px;
+    background-color: map-get($colores, colorNav);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  .nav-link{
+    color:map-get($colores, colorNavLink);
+  }
+  .nav-link:hover{
+    color: rgb(230, 230, 230);
+    transform: scale(1.1)
+  }
+  .navbar-toggler{
+    font-size: 40px;
+    color: white;
+  }
+
+  .logoNBK{
+    min-width: 200px;
+    max-width: 220px;
+  }

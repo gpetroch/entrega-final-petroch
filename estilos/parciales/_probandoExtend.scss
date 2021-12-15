@@ -1,0 +1,20 @@
+@import "../parciales/estilosTextos";
+
+.pruebaExtend{
+background-color:map-get($colores , colorPrueba);
+width: 400px;
+height: 100px;
+text-align: center;
+font-family: $font-b;
+padding: $pTop;
+margin-left: 50px;
+margin-top: 10px;
+border-radius: 20px;
+};
+
+.pruebaExtend-dos{
+@extend .pruebaExtend;
+background-color:map-get($colores , colorNav );
+color: map-get($colores , colorNavLink);
+}
+

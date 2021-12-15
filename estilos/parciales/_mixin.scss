@@ -1,0 +1,13 @@
+@import "../parciales/estilosTextos";
+
+
+@mixin texto-mixin {
+    color: green;
+    font-size: 30px;
+    font-family: $font-a;
+    margin-left: 50px;
+}
+
+.probandoMixin {
+    @include texto-mixin
+};

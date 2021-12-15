@@ -1,0 +1,23 @@
+
+  .imgEffects{
+   justify-content: right;}
+  
+  .imgEffects:hover{
+   transform: scale(1.02);
+   transition: transform 0.3s ease-in;
+  }
+  
+  .imgImg{
+    background-color: none;
+    max-width: 100vw;
+    align-content: center;
+    overflow-x: scroll;
+  }
+  
+  .contentCenter{
+    max-width: 100px;
+    text-align: left center;
+    background-color: greenyellow;
+    margin: 60px;
+  }
+  
