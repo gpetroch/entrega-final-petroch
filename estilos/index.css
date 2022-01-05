@@ -36,6 +36,15 @@ h3 {
   background-color: none;
 }
 
+.tituloProducto {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  max-width: 550px;
+  font-size: 60px;
+  line-height: 55px;
+  color: blue;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -224,6 +233,15 @@ h3 {
   background-color: none;
 }
 
+.tituloProducto {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  max-width: 550px;
+  font-size: 60px;
+  line-height: 55px;
+  color: blue;
+}
+
 .textoMain {
   background-color: none;
   padding-left: 50px;
@@ -260,6 +278,15 @@ h3 {
 
 .textContacto {
   background-color: none;
+}
+
+.tituloProducto {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  max-width: 550px;
+  font-size: 60px;
+  line-height: 55px;
+  color: blue;
 }
 
 .pruebaExtend, .pruebaExtend-dos {
@@ -377,6 +404,15 @@ h3 {
 
 .textContacto {
   background-color: none;
+}
+
+.tituloProducto {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  max-width: 550px;
+  font-size: 60px;
+  line-height: 55px;
+  color: blue;
 }
 
 .probandoMixin {
