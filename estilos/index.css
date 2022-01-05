@@ -36,13 +36,19 @@ h3 {
   background-color: none;
 }
 
-.tituloProducto {
+.tituloProductos {
   font-weight: 800;
   font-family: "DM Serif Text", serif;
   max-width: 550px;
   font-size: 60px;
   line-height: 55px;
-  color: blue;
+  background-color: blueviolet;
+}
+
+.tituloProductss {
+  font-weight: 450;
+  font-family: "DM Serif Text", serif;
+  background-color: blue;
 }
 
 * {
@@ -233,13 +239,19 @@ h3 {
   background-color: none;
 }
 
-.tituloProducto {
+.tituloProductos {
   font-weight: 800;
   font-family: "DM Serif Text", serif;
   max-width: 550px;
   font-size: 60px;
   line-height: 55px;
-  color: blue;
+  background-color: blueviolet;
+}
+
+.tituloProductss {
+  font-weight: 450;
+  font-family: "DM Serif Text", serif;
+  background-color: blue;
 }
 
 .textoMain {
@@ -280,13 +292,19 @@ h3 {
   background-color: none;
 }
 
-.tituloProducto {
+.tituloProductos {
   font-weight: 800;
   font-family: "DM Serif Text", serif;
   max-width: 550px;
   font-size: 60px;
   line-height: 55px;
-  color: blue;
+  background-color: blueviolet;
+}
+
+.tituloProductss {
+  font-weight: 450;
+  font-family: "DM Serif Text", serif;
+  background-color: blue;
 }
 
 .pruebaExtend, .pruebaExtend-dos {
@@ -406,13 +424,19 @@ h3 {
   background-color: none;
 }
 
-.tituloProducto {
+.tituloProductos {
   font-weight: 800;
   font-family: "DM Serif Text", serif;
   max-width: 550px;
   font-size: 60px;
   line-height: 55px;
-  color: blue;
+  background-color: blueviolet;
+}
+
+.tituloProductss {
+  font-weight: 450;
+  font-family: "DM Serif Text", serif;
+  background-color: blue;
 }
 
 .probandoMixin {

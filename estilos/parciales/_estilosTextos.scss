@@ -47,11 +47,17 @@ h3{
     background-color: none;
   }
 
-  .tituloProducto{
+  .tituloProductos {
     font-weight: 800;
     font-family: $font-a;
     max-width: 550px;
     font-size: 60px;
     line-height: 55px;
-    color: blue;
+    background-color: blueviolet;
+}
+
+.tituloProductss{
+  font-weight: 450;
+  font-family: $font-a;
+  background-color: blue;
 }
