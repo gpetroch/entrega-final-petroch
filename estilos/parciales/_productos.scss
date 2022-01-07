@@ -1,11 +1,73 @@
 
-.containerCards{
-    margin-top: 110px;
-}
+
 
 .tarjeta{
+margin-top: 110px;
 border: none;
 outline: none;
-background-color: blue;
-border-radius: 50px;
+background-color: whitesmoke;
+border-radius: 25px;}
+
+
+.hoverImg:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in;
+  }
+
+.tarjeta:hover{
+    transform: translateY(-10px);
+    transition: transform .2s;
+
+}
+
+  
+.text1{
+    font-size: 16px;
+    color: #999999;
+  }
+
+.star{
+  color: map-get($colores, colorNav);
+}
+
+.precioStrong span {
+    color:#2462BC;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fStrong{
+    background:#2462BCed;
+}
+
+/* card 2 Formul Soft */
+.precioSoft span {
+    color:#19a0b8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fSoft{
+    background:#19a0b8;
+}
+
+/* card 2 Formul Pets */
+.precioPets span {
+    color:#040681;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fPets{
+    background:#040681;
+}
+
+/* efecto hover sobre boton */
+.fStrong:hover, .fSoft:hover, .fPets:hover {
+    opacity: 0.8;
+}
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }

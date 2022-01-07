@@ -1,7 +1,7 @@
 .textoMain {
   background-color: none;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 80px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -10,12 +10,13 @@
   font-family: "DM Serif Text", serif;
   font-size: 60px;
   line-height: 55px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .textIndex {
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .titulos {
@@ -32,8 +33,37 @@ h3 {
   font-family: "DM Serif Text", serif;
 }
 
+.headTitulo {
+  font-weight: 600;
+  font: "Titillium Web", sans-serif;
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.textIndex {
+  padding-bottom: 5px;
+}
+
 .textContacto {
   background-color: none;
+}
+
+.tituloProductoOk {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  font-size: 60px;
+  line-height: 55px;
+  padding: 70px 20px 0px 20px;
+}
+
+.textoProductos {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.titulosprod {
+  padding-top: 30px;
+  font-weight: 600;
 }
 
 * {
@@ -90,7 +120,7 @@ body {
 .carousel {
   width: 800px;
   margin: 20px auto;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .carousel .carousel-item {
@@ -188,8 +218,8 @@ body {
 /*FIN ESTILO TESTIMONIOS*/
 .textoMain {
   background-color: none;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 80px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -198,12 +228,13 @@ body {
   font-family: "DM Serif Text", serif;
   font-size: 60px;
   line-height: 55px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .textIndex {
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .titulos {
@@ -220,14 +251,43 @@ h3 {
   font-family: "DM Serif Text", serif;
 }
 
+.headTitulo {
+  font-weight: 600;
+  font: "Titillium Web", sans-serif;
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.textIndex {
+  padding-bottom: 5px;
+}
+
 .textContacto {
   background-color: none;
+}
+
+.tituloProductoOk {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  font-size: 60px;
+  line-height: 55px;
+  padding: 70px 20px 0px 20px;
+}
+
+.textoProductos {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.titulosprod {
+  padding-top: 30px;
+  font-weight: 600;
 }
 
 .textoMain {
   background-color: none;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 80px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -236,12 +296,13 @@ h3 {
   font-family: "DM Serif Text", serif;
   font-size: 60px;
   line-height: 55px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .textIndex {
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .titulos {
@@ -258,8 +319,37 @@ h3 {
   font-family: "DM Serif Text", serif;
 }
 
+.headTitulo {
+  font-weight: 600;
+  font: "Titillium Web", sans-serif;
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.textIndex {
+  padding-bottom: 5px;
+}
+
 .textContacto {
   background-color: none;
+}
+
+.tituloProductoOk {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  font-size: 60px;
+  line-height: 55px;
+  padding: 70px 20px 0px 20px;
+}
+
+.textoProductos {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.titulosprod {
+  padding-top: 30px;
+  font-weight: 600;
 }
 
 .pruebaExtend, .pruebaExtend-dos {
@@ -268,7 +358,7 @@ h3 {
   height: 100px;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
-  padding: 50px;
+  padding: 60px;
   margin-left: 50px;
   margin-top: 10px;
   border-radius: 20px;
@@ -296,10 +386,9 @@ h3 {
 
 .imgImg {
   background-color: none;
-  max-width: 100vw;
+  padding-left: 10px;
   -ms-flex-line-pack: center;
       align-content: center;
-  overflow-x: scroll;
 }
 
 .contentCenter {
@@ -307,6 +396,12 @@ h3 {
   text-align: left center;
   background-color: greenyellow;
   margin: 60px;
+}
+
+.imgMain {
+  background-color: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 /* INICIO CARD CONTACTO*/
@@ -343,8 +438,8 @@ h3 {
 /* FIN FOOTER*/
 .textoMain {
   background-color: none;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 80px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -353,12 +448,13 @@ h3 {
   font-family: "DM Serif Text", serif;
   font-size: 60px;
   line-height: 55px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .textIndex {
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .titulos {
@@ -375,8 +471,37 @@ h3 {
   font-family: "DM Serif Text", serif;
 }
 
+.headTitulo {
+  font-weight: 600;
+  font: "Titillium Web", sans-serif;
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.textIndex {
+  padding-bottom: 5px;
+}
+
 .textContacto {
   background-color: none;
+}
+
+.tituloProductoOk {
+  font-weight: 800;
+  font-family: "DM Serif Text", serif;
+  font-size: 60px;
+  line-height: 55px;
+  padding: 70px 20px 0px 20px;
+}
+
+.textoProductos {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.titulosprod {
+  padding-top: 30px;
+  font-weight: 600;
 }
 
 .probandoMixin {
@@ -384,5 +509,83 @@ h3 {
   font-size: 30px;
   font-family: "DM Serif Text", serif;
   margin-left: 50px;
+}
+
+.tarjeta {
+  margin-top: 110px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+
+.hoverImg:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+}
+
+.tarjeta:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.text1 {
+  font-size: 16px;
+  color: #999999;
+}
+
+.star {
+  color: #5d635c;
+}
+
+.precioStrong span {
+  color: #2462BC;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fStrong {
+  background: #2462BCed;
+}
+
+/* card 2 Formul Soft */
+.precioSoft span {
+  color: #19a0b8;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fSoft {
+  background: #19a0b8;
+}
+
+/* card 2 Formul Pets */
+.precioPets span {
+  color: #040681;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fPets {
+  background: #040681;
+}
+
+/* efecto hover sobre boton */
+.fStrong:hover, .fSoft:hover, .fPets:hover {
+  opacity: 0.8;
+}
+
+.cursor {
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 /*# sourceMappingURL=index.css.map */

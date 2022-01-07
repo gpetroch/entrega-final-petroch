@@ -12,7 +12,7 @@ line-height: 55px);
 
 .textoMain{
     background-color: none;
-    padding-left: $pTop;
+    padding-left: 80px;
     padding-top: $pTop;
     padding-bottom: 40px;}
   
@@ -21,12 +21,13 @@ line-height: 55px);
       font-family: $font-a;
       font-size: 60px;
       line-height: 55px;
-      padding-top: 20px;
+      padding-top: 50px;
       padding-bottom: 30px;
     }
 
 .textIndex{
       margin-top: 30px;
+      margin-right: 50px;
       }
 
 .titulos{
@@ -43,29 +44,36 @@ h3{
     font-family: $font-a;
   }
 
+.headTitulo{
+  font-weight: 600;
+  font: $font-b;
+  color: rgb(109, 109, 109);
+  font-size: 20px;
+}
+
+.textIndex{
+  padding-bottom: 5px;
+}
 .textContacto {
     background-color: none;
   }
 
-  .tituloProductos {
-    font-weight: 800;
-    font-family: $font-a;
-    max-width: 550px;
-    font-size: 60px;
-    line-height: 55px;
-    background-color: blueviolet;
+.tituloProductoOk{
+  font-weight: 800;
+  font-family: $font-a;
+  font-size: 60px;
+  line-height: 55px;
+  padding: 70px 20px 0px 20px;
 }
 
-.tituloProductss{
-  font-weight: 450;
-  font-family: $font-a;
-  background-color: blue;
+
+.textoProductos {
+  padding: 20px 20px 0 20px;
+  text-align: center;
 }
 
 .titulosprod{
-  font-weight: 800;
-  font-family: $font-a;
-  max-width: 550px;
-  font-size: 30px;
-  line-height: 25px;
+  padding-top: 30px;
+  font-weight: 600;
 }
+
