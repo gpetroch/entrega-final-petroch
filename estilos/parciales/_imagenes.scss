@@ -20,7 +20,36 @@
     margin: 60px;
   }
 
-  .imgMain{
-    background-color: none;
-    align-content: center;
+
+  .centradoContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallaxCompleto{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 100%;
+    height:50vh;
+    background-image: url(/assets/parallax1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.flexPrueba{
+  display: flex;
+  justify-content: center;
+}
+
+  .sizing{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .centradoImg{
+    margin: 20px 10px 20px 10px;;
   }

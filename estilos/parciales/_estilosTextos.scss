@@ -14,7 +14,7 @@ line-height: 55px);
     background-color: none;
     padding-left: 80px;
     padding-top: $pTop;
-    padding-bottom: 40px;}
+    padding-bottom: 20px;}
   
 .textoTestim{
       font-weight: 800;
@@ -38,6 +38,7 @@ line-height: 55px);
     line-height: 55px;
       }
 
+  
 h3{
     font-size: 23px;
     font-weight: 800;
@@ -55,7 +56,8 @@ h3{
   padding-bottom: 5px;
 }
 .textContacto {
-    background-color: none;
+    background-color: green;
+    padding: 10px 0px 10px 0px;
   }
 
 .tituloProductoOk{
@@ -77,3 +79,27 @@ h3{
   font-weight: 600;
 }
 
+
+
+
+.tituloNosotross{
+  font-weight: 800;
+  font-size: 60px;
+  font-family: $font-a;
+  line-height: 55px;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.textNosotros{
+  padding-top: 10px;
+  }
+
+
+
+  .blanquito{
+    background-color: cadetblue;
+    padding:20px;
+
+  }
