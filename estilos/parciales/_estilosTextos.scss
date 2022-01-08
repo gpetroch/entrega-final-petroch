@@ -116,7 +116,6 @@ h3{
   .TitleFreq{
     font-family: $font-b;
     font-weight: 600;
-    color: rgb(29, 29, 29);
     font-size: 30px;
     padding-top: 20px;
     padding-left: 10px;
@@ -129,3 +128,10 @@ h3{
     padding: 15px;
     line-height: 17px;
   }
+
+  .estiloLi{
+    list-style-type: none;
+    margin: 0%;
+    padding: 10%;
+    line-height: 18px;
+}

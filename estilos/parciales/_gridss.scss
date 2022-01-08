@@ -1,5 +1,3 @@
-
-
 .contenedorPadreGrids{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
@@ -45,7 +43,7 @@
     align-items: center;
 }
 
-
+/* MEDIA MOBILE LANDING INFO*/
 
 @media only screen and (min-width: 0px) and (max-width: 768px){
 .contenedorPadreGrids{
@@ -61,7 +59,10 @@
 	grid-template-rows: 250px 400px 450px 350px 350px 600px;
 	grid-gap: 10px;
     justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
 
 .boxT{
     grid-area: boxT;
@@ -72,30 +73,56 @@
 
 .box1{
     grid-area: box1;
-    background-color: orange;
+    background-color: rgb(243, 243, 243);
 }
 .box2{
     grid-area: box2;
-    background-color: orange;
+    background-color: rgb(243, 243, 243);
 }
 .box3{
     grid-area: box3;
-    background-color: orange;
+    background-color: rgb(243, 243, 243);
 }
 .box4{
     grid-area: box4;
-    background-color: orange;
+    background-color: rgb(243, 243, 243);
 }
 .box5{
      grid-area: box5;
      border-radius: 10px;
-     background-color: rgb(219, 219, 219);
+     background-color: rgb(243, 243, 243);
      align-items: center;
 }
 
 
 
 
+.textosBox5{
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.descripcion{
+    background-color: green;
+    align-content: center;
+}
+
+.contenedorBox5{
+    background-color: pink;
+    flex-direction: column;
+}
+
+.contenedorMapa{
+ background-color: yellowgreen;
+}
+
+
+}
+
+/* FIN MEDIA MOBILE LANDING INFO */
+
+
+/* ESTILO BOTON */
 
 .botonCBD {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -118,17 +145,40 @@
 	position:relative;
 	top:1px;
 }
+/* FIN ESTILO BOTON */
 
+/* EFECTO HOVER */
 .hoverCard:hover{
     transform: scale(1.01);
     transition: transform 0.1s ease-in;
   }
 
-.mapaS{
-    width: 100%;
-    flex-flow: row wrap;
+  .alineado{
+    text-align: center;
     align-items: center;
-    padding: 10px;
 }
 
+.contenedorBox5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    padding: 10px 20px;
+}
 
+.textosBox5{
+    display: flex;
+    width: 500px;
+    height: auto;
+    background-color: none;
+    margin: 20px;
+}
+
+.descripcion{
+    background-color: none;
+    text-align: center
+}
+
+.contenedorMapa{
+    margin: 20px 40px;
+}

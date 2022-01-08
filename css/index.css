@@ -97,7 +97,6 @@ h3 {
 .TitleFreq {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
-  color: #1d1d1d;
   font-size: 30px;
   padding-top: 20px;
   padding-left: 10px;
@@ -109,6 +108,13 @@ h3 {
   color: #5d635c;
   padding: 15px;
   line-height: 17px;
+}
+
+.estiloLi {
+  list-style-type: none;
+  margin: 0%;
+  padding: 10%;
+  line-height: 18px;
 }
 
 * {
@@ -360,7 +366,6 @@ h3 {
 .TitleFreq {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
-  color: #1d1d1d;
   font-size: 30px;
   padding-top: 20px;
   padding-left: 10px;
@@ -372,6 +377,13 @@ h3 {
   color: #5d635c;
   padding: 15px;
   line-height: 17px;
+}
+
+.estiloLi {
+  list-style-type: none;
+  margin: 0%;
+  padding: 10%;
+  line-height: 18px;
 }
 
 .textoMain {
@@ -473,7 +485,6 @@ h3 {
 .TitleFreq {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
-  color: #1d1d1d;
   font-size: 30px;
   padding-top: 20px;
   padding-left: 10px;
@@ -485,6 +496,13 @@ h3 {
   color: #5d635c;
   padding: 15px;
   line-height: 17px;
+}
+
+.estiloLi {
+  list-style-type: none;
+  margin: 0%;
+  padding: 10%;
+  line-height: 18px;
 }
 
 .pruebaExtend, .pruebaExtend-dos {
@@ -711,7 +729,6 @@ h3 {
 .TitleFreq {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
-  color: #1d1d1d;
   font-size: 30px;
   padding-top: 20px;
   padding-left: 10px;
@@ -723,6 +740,13 @@ h3 {
   color: #5d635c;
   padding: 15px;
   line-height: 17px;
+}
+
+.estiloLi {
+  list-style-type: none;
+  margin: 0%;
+  padding: 10%;
+  line-height: 18px;
 }
 
 .probandoMixin {
@@ -879,6 +903,7 @@ h3 {
           align-items: center;
 }
 
+/* MEDIA MOBILE LANDING INFO*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .contenedorPadreGrids {
     display: -ms-grid;
@@ -892,6 +917,8 @@ h3 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .boxT {
     -ms-grid-row: 1;
@@ -904,34 +931,65 @@ h3 {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: box1;
-    background-color: orange;
+    background-color: #f3f3f3;
   }
   .box2 {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: box2;
-    background-color: orange;
+    background-color: #f3f3f3;
   }
   .box3 {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: box3;
-    background-color: orange;
+    background-color: #f3f3f3;
   }
   .box4 {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: box4;
-    background-color: orange;
+    background-color: #f3f3f3;
   }
   .box5 {
     -ms-grid-row: 6;
     -ms-grid-column: 1;
     grid-area: box5;
-    background-color: orange;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .textosBox5 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .descripcion {
+    background-color: green;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .contenedorBox5 {
+    background-color: pink;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedorMapa {
+    background-color: yellowgreen;
   }
 }
 
+/* FIN MEDIA MOBILE LANDING INFO */
+/* ESTILO BOTON */
 .botonCBD {
   -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
           box-shadow: inset 0px 1px 0px 0px #ffffff;
@@ -957,6 +1015,8 @@ h3 {
   top: 1px;
 }
 
+/* FIN ESTILO BOTON */
+/* EFECTO HOVER */
 .hoverCard:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
@@ -966,15 +1026,43 @@ h3 {
   transition: transform 0.1s ease-in, -webkit-transform 0.1s ease-in;
 }
 
-.mapaS {
-  width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+.alineado {
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
+}
+
+.contenedorBox5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+  padding: 10px 20px;
+}
+
+.textosBox5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: auto;
+  background-color: none;
+  margin: 20px;
+}
+
+.descripcion {
+  background-color: none;
+  text-align: center;
+}
+
+.contenedorMapa {
+  margin: 20px 40px;
 }
 /*# sourceMappingURL=index.css.map */
