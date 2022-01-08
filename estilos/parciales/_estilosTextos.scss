@@ -103,3 +103,29 @@ h3{
     padding:20px;
 
   }
+
+
+  .tituloFreq{
+    font-weight: 800;
+    font-size: 60px;
+    font-family: $font-a;
+    line-height: 55px;
+    color: black;
+  }
+
+  .TitleFreq{
+    font-family: $font-b;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .textFreq{
+    font-size: 17px;
+    color:map-get($colores, colorNav);
+    padding: 15px;
+    line-height: 17px;
+  }
